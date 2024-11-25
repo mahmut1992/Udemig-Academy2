@@ -1,0 +1,14 @@
+html,
+body {
+  overflow-x: hidden; /* Yatay taşmaları engeller */
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 70px;
+}
+
+.card {
+  min-height: 425px;
+}
